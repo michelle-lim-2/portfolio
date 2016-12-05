@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+	<head>
+	<title>Michelle Lim</title>
+		<!-- import js -->
+    	<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.3.3/angular.min.js"></script>
+
+    	<!-- import controllers -->
+    	<script src = "scripts/testController.js"></script>
+
+	    <!-- import css styles -->
+		<link href="sass/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<link href="sass/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+		<!--[if IE]>
+		<link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+		<![endif]-->
+    </head>
+    <body ng-app="myapp">
+    	<nav class="nav-top">
+    		<ul>
+    			<li><a href="#">Home</a></li>
+    			<li><a href="#">Resume</a></li>
+    			<li><a href="#">Portfolio</a></li>
+    			<li><a href="#">Connect</a></li>
+    		</ul>
+    	</nav>
+
+    	<div ng-controller="HelloController" >
+    		<h2>Welcome {{helloTo.title}} to the world of Mish!</h2>
+    	</div>
+    	
+    </body>
+</html>

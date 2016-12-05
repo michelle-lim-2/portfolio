@@ -1,0 +1,19 @@
+// nav.scss
+
+// Navigation
+nav {
+	ul {
+		margin: 0;
+		padding: 20px;
+		list-style: none;
+	}
+
+	li { display: inline-block; }
+		
+	a {
+		text-decoration: none;
+		padding: 6px 12px;
+		color: $ml-dark-pink;
+		font-family: $base-font-family;
+	}	
+}
